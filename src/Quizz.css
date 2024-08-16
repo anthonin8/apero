@@ -1,0 +1,142 @@
+body {
+  background-color: #1ea1aa;
+}
+.quizz-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .answer-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .option {
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .option.selected {
+    border-color: yellow; /* Change la couleur quand l'option est sélectionnée */
+  }
+  
+  .score-section {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .button-go-back {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-go-back:hover {
+    background-color: #45a049;
+  }
+  .quiz-option img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px; /* Pour arrondir les bords, si nécessaire */
+}
+.quiz-option {
+    width: 200px; /* Ajustez selon vos besoins */
+    height: 200px; /* Ajustez selon vos besoins */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f5f5f5; /* Couleur de fond du cube */
+    border-radius: 10px;
+}
+/* Ajuster le conteneur principal à 50% de la hauteur de la page et le centrer */
+.quizz-container {
+  height: 100vh; /* 50% de la hauteur de la vue */
+  width: 75%; /* 50% de la largeur de la page */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #22b6c0;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto; /* Centre horizontalement */
+  position: absolute;
+  top: 50%; /* Positionne à 50% du haut de la page */
+  left: 50%; /* Positionne à 50% de la gauche de la page */
+  transform: translate(-50%, -50%); /* Centre exactement au milieu */
+}
+
+/* Réduire la taille des images */
+.option img {
+  max-width: 300px; /* Ajuste la taille maximale en largeur des images */
+  max-height: 300px; /* Ajuste la taille maximale en hauteur des images */
+  object-fit: cover; /* Assure que l'image est bien ajustée */
+  border-radius: 8px; /* Pour un effet de coin arrondi */
+}
+
+/* Réduire le conteneur des options */
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Section des réponses avec un espacement */
+.answer-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Section de la question */
+.question-section {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Bouton de validation */
+.validate-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Bouton pour retourner à la page d'accueil */
+.button-go-back {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

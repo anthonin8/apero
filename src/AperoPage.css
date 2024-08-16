@@ -1,0 +1,53 @@
+.apero-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Occupe toute la hauteur de la vue */
+    background-color: #282c34; /* Couleur de fond de la page */
+    color: white; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur */
+    box-sizing: border-box; /* Inclure le padding dans les dimensions de l'élément */
+  }
+  
+  .apero-page-header {
+    margin-top: 20px; /* Espacement au-dessus du texte */
+  }
+  
+  .apero-page-button {
+    align-self: flex-start; /* Aligner le bouton au début (gauche) */
+    margin: 20px; /* Marge autour du bouton */
+    padding: 10px 20px; /* Padding pour le bouton */
+    font-size: 16px; /* Taille de police pour le bouton */
+    cursor: pointer; /* Curseur pour le bouton */
+    background-color: #61dafb; /* Couleur de fond du bouton */
+    border: none; /* Suppression des bordures par défaut du bouton */
+    border-radius: 5px; /* Bords arrondis pour le bouton */
+    color: white; /* Couleur du texte du bouton */
+    position: absolute; /* Positionner le bouton en bas à gauche */
+    bottom: 20px; /* Marge du bas */
+    left: 20px; /* Marge de gauche */
+  }
+  
+  .apero-page-button:hover {
+    background-color: #21a1f1; /* Couleur de fond du bouton au survol */
+  }
+  .button-choix{
+    
+    align-self: flex-start; /* Aligner le bouton au début (gauche) */
+    margin: 20px; /* Marge autour du bouton */
+    padding: 10px 20px; /* Padding pour le bouton */
+    font-size: 16px; /* Taille de police pour le bouton */
+    cursor: pointer; /* Curseur pour le bouton */
+    background-color: #61dafb; /* Couleur de fond du bouton */
+    border: none; /* Suppression des bordures par défaut du bouton */
+    border-radius: 5px; /* Bords arrondis pour le bouton */
+    color: white; /* Couleur du texte du bouton */
+    bottom: 20px; /* Marge du bas */
+    left: 20px; /* Marge de gauche */
+  }
+  .button-choix:hover{
+    background-color: #21a1f1; /* Couleur de fond du bouton au survol */
+  }
+  h2{
+    color: white;
+    text-align: center;
+  }

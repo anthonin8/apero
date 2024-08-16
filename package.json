@@ -1,0 +1,41 @@
+{
+  "name": "heure_dapero",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://anthonin8.github.io/my-app",
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "gh-pages": "^6.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-modal": "^3.11.2",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "4.0.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

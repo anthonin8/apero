@@ -1,0 +1,180 @@
+/* Général */
+.defi-container {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modal-content h2,
+.modal-content p {
+  color: white;
+}
+
+.modal-content input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
+
+/* Drink Options */
+.drink-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.drink-option {
+  cursor: pointer;
+}
+
+.drink-option img {
+  width: 50px;
+  height: 50px;
+}
+
+.drink-option p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+/* Page Content */
+.page-content {
+  margin-top: 20px;
+}
+
+.names-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.name-item {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.name-item h2,
+.name-item p {
+  color: white;
+}
+
+.name-item hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid white;
+}
+
+.winner {
+  background-color: green;
+}
+
+.loser {
+  background-color: red;
+}
+
+.winner-text,
+.loser-text {
+  color: white;
+  font-weight: bold;
+}
+
+/* Timer */
+.timer {
+  margin-top: 10px;
+}
+
+.timer-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.start-button {
+  background-color: #28a745;
+}
+
+.stop-button {
+  background-color: #dc3545;
+}
+
+.start-button:hover {
+  background-color: #218838;
+}
+
+.stop-button:hover {
+  background-color: #c82333;
+}
+
+/* Buttons */
+.end-game-button,
+.restart-game-button,
+.apero-page-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.end-game-button:hover,
+.restart-game-button:hover,
+.apero-page-button:hover {
+  background-color: #0056b3;
+}
+
+.name-item ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.name-item ul li {
+  margin-left: 0;
+}
