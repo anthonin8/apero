@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/apero/static/css/main.87c9cdb9.chunk.css",
+    "main.js": "/apero/static/js/main.3b85987a.chunk.js",
+    "main.js.map": "/apero/static/js/main.3b85987a.chunk.js.map",
+    "runtime-main.js": "/apero/static/js/runtime-main.cb69f77a.js",
+    "runtime-main.js.map": "/apero/static/js/runtime-main.cb69f77a.js.map",
+    "static/js/2.37feac3b.chunk.js": "/apero/static/js/2.37feac3b.chunk.js",
+    "static/js/2.37feac3b.chunk.js.map": "/apero/static/js/2.37feac3b.chunk.js.map",
+    "index.html": "/apero/index.html",
+    "static/css/main.87c9cdb9.chunk.css.map": "/apero/static/css/main.87c9cdb9.chunk.css.map",
+    "static/js/2.37feac3b.chunk.js.LICENSE.txt": "/apero/static/js/2.37feac3b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb69f77a.js",
+    "static/js/2.37feac3b.chunk.js",
+    "static/css/main.87c9cdb9.chunk.css",
+    "static/js/main.3b85987a.chunk.js"
+  ]
+}
