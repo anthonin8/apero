@@ -2,7 +2,7 @@
   "name": "heure_dapero",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://anthonin8.github.io/my-app",
+  "homepage": "https://anthonin8.github.io/apero",
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
